@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title> Assignment|WP Pusher</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav_bar">
+                <img src="./images/wp pusher.jpg" alt="company logo">
+           
+           <div class="nav_links">
+            <a href="#">Download</a> 
+            <a href="#">Learn more</a>
+            <a href="#">Pricing</a>
+           <a href="#">Help</a>
+            <a href="#">Account</a>
+           </div> 
+        </nav>
+        </header>
+        <main>
+            <div class="checkout">
+                <!--checkout info(white bg)-->
+                <section class="checkout_form">
+                    <div class="checkout_title">
+                        <h2>Checkout</h2>
+                    </div>
+                    <!--Basic Information-->
+                    <div class="basic_information">
+                        <h3 class="numbered_heading" data-number="1">Your Basic Information
+                        </h3>
+                        <form action="#" method="post">
+                            <div class="form_grid">
+                            </div>
+                            <div class="form-field">
+                                <label for="First_Name">First Name</label><br/>
+                                <input class="form_input" 
+                                type="text"
+                                id="First-name" name="first-name"
+                                placeholder="Gloria" 
+                                required>
+                            </div>
+                            <div class="form-field">
+                                <label for="Last_Name">Last Name</label><br/>
+                                <input class="form_input" 
+                                type="text"
+                                id="Last-name" name="Last-name"
+                                placeholder="Ajayi" 
+                                required> 
+                            </div>
+                            <div class="form_field full_width">
+                                <label for="email">E-mail</label><br/>
+                                <input class="form_input"
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Ajayigloria@example.com"
+                                required>
+                            </div>
+                        </form>
+                    </div>
+                    <!--Payment Information-->
+                    <div class="payment_info">
+                        <h3>Your Payment Information</h3>
+                        <form action="#" method="post">
+                            <div class="form-field">
+                                <label for="credit-card"
+                                class="credit_card">Credit Card</label><br/>
+                                <input class="card_input" type="text" id="credit-card" placeholder="Card Number&emsp;MM/YY&emsp;CCV"
+                                pattern="[0-9\s]{13,19}"
+                                maxlength="=26"
+                                inputmode="numeric"
+                                autocomplete="cc-number"
+                                required>
+                            </div>
+                            <hr/>
+                        </form>
+                        <!--BUY BUTTON-->
+                        <button class="buy_wppusher">Buy WP Pusher</button>
+                        <!--Help Support-->
+                        <div class="support_container">
+                            <span class="help_icon"></span>
+                            <p>
+                                <strong>Need any help?</strong>
+                                Dont't hesistate to <a href="#">contact</a> support!
+                            </p>
+                        </div>
+                        <div class="powered_by">
+
+                            <p>Powered by
+                            <span class="strip">stripe</span></p>
+                        </div>
+<section>
+    <!--plan description(blue bg)-->
+    <div class="checkout_plan">
+        <div class="checkout_content">
+            <h3>Freelancer</h3>
+            <div class="price">
+                <span class="price_currency">$</span>
+                <div>
+                    <span class="price_amount">99</span>
+                    <span class="price_period">/year</span>
+                </div>
+            </div>
+            <p class="renewal_text">Automatically renews after 1 year</p>
+        </div>
+        <!--list of plan benefits(3 round-ticked bullets)-->
+        <div class="benefit_list">
+            <ul>
+                <li>Use on <strong>5</strong> client sites</li>
+                <li>Private repositories</li>
+                <li>Email support</li>
+            </ul>
+        </div>
+        <div class="switch_plan">
+            <p>
+                Need<strong> 20</strong> client sites?
+                <p> <a href="#">Switch to the agency plan </a>
+
+            </p>
+        </div>
+    <hr/>
+    <!--review-->
+    <blockquote class="text_italic">
+        <p>
+            FTP is horrible to deal with <strong>WP Pusher</strong> solves the issue,
+            and the customer support is awesome!
+        </p>
+        <figure class="reviewer">
+            <img src="./images/kirk beard.jpg" alt="reviewer image" height="200px"> 
+            <figcaption>Kirk Beard</figcaption>
+        </figure>
+    </blockquote>
+    </div>
+</section>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!--footer: copy right and T&C-->
+        <footer>
+            <p>&copy; 2018 WP Pusher IVS. <a href="#">Terms of Service</a></p>
+        </footer>
+    </body>
+</html>
